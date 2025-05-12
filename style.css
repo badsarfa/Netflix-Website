@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Font */
+h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+}
+h3{
+    color: #fff;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+span {
+    font-size: 0.875rem;
+    color: #ffffffb3;
+}
+
+/* Button */
+button {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    color: white;
+    background: rgb(229, 9, 20);
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    min-height: 3.5rem;
+    border: none;
+    letter-spacing: normal;
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+
+/* Navbar on Image */
+
+.bg-img {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.8) 95%), url("./images/Banner.jpg");
+    height: 43.75rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+/* The navbar */
+
+.bg-img .nav {
+    max-width: 83%;
+    height: auto;
+    display: block;
+    display: flex;
+    justify-content: space-evenly !important;
+    padding: 0.625rem 3rem;
+    margin: auto;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.logo a img {
+    display: block;
+    width: 188px;
+    min-height: 40px;
+}
+
+.bg-img .nav_right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav_right a select {
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+    padding: 0.5rem !important;
+    border-radius: 4px;
+
+}
+
+.nav_right .signin {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    border: none;
+    text-wrap: nowrap;
+    align-self: center;
+    background: rgb(229, 9, 20);
+    border-radius: 4px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.banner_text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner_text .input_button {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.banner_text .input_button i {
+    padding-left: 10px;
+    font-size: 1.2rem;
+    
+}
+
+.banner_text .input_button input {
+    padding-left: 1rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 22rem;
+    background: #000;
+    opacity: 0.8;
+    border-color: #767676;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #fff;
+}
+
+/* Horizontal start line  */
+.horizontal_line {
+    width: 100%;
+    height: 0.5rem;
+    background: rgb(118, 118, 118);
+    opacity: 0.3;
+}
+
+/* Horizontal End line  */
+/* TV Section Start Here  */
+.television {
+    padding-top: 4rem;
+    width: 100%;
+    height: auto;
+}
+
+.tv {
+    width: 83%;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.tv .tv_text {
+    padding-right: 4rem;
+    width: 50%;
+}
+
+.tv .tv_text h5 {
+    padding-top: 1rem;
+}
+
+.television .tv .tv_video {
+    width: 50%;
+    height: 28rem;
+    background-image: url(./images/tv.png);
+    background-repeat: no-repeat;
+    /* background-size: d; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2.4rem;
+    padding-bottom: 1.2rem;
+}
+.television .tv .tv_video video{
+    width: 29rem;
+    height: 28rem;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(18.5%, 1.5%);
+}
+
+/* TV Section End Here  */
+
+/* Horizontal start line  */
+.horizontal_line {
+    width: 100%;
+    height: 0.5rem;
+    background: rgb(118, 118, 118);
+    opacity: 0.3;
+}
+
+/* Horizontal End line  */
+
+/* Offline Watch Section Start Here */
+.offline_watch {
+    padding-top: 4rem;
+    width: 100%;
+    height: auto;
+}
+
+.offline {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.offline .offline_watch_text h5 {
+    padding-top: 1rem;
+}
+.offline_watch .offline .offline_watch_img {
+    width: 579px;
+    height: 434px;
+    /* background-image: url(./images/mobile-0819.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offline .offline_watch_img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.offline .offline_watch_img .downloading{
+    width: 300px;
+    display: flex;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.7);
+    box-shadow: 0 0 2em 0 rgb(0, 0, 0);
+    border-radius: 15px;
+    position: absolute;
+}
+
+.offline .offline_watch_img .downloading .downloading_img img{
+    width: 3.5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.offline .offline_watch_img .downloading .downloading_icon img{
+    width: 3rem;
+    height: 3.8rem;
+    object-fit: cover;
+    margin-left: 30px;
+}
+/* Offline Watch Section End Here */
+
+/* stream section start here */
+
+
+/* Watch offline section start Here  */
+.kids_profile .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 0px;
+}
+.kids_profile .kids{
+    width: 83%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kids_profile .kids .kids_img img{
+    width: 100%;
+    height: auto;
+}
+.kids_profile .kids .kids_text{
+    width: 50%;
+}
+
+
+/* Watch offline section End Here  */
+
+
+/* >>> FAQ STYLES <<< */
+.accordion{
+    padding: 72px 0px;
+}
+.faq_main_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq_container { 
+    width: 83%;
+}
+.faq_question {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 18px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  background: #2d2d2d;
+  margin-bottom: 2px;
+}
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  background: #2d2d2d;
+}
+.answer {
+  padding: 20px;
+  line-height: 1.5rem;
+}
+.fqa_headline_container h2 span { font-weight: 700; }
+.faq_question-text h3 { font-size: 24px; font-weight: normal;}
+
+.icon.active {
+  background: transparent;
+  border: 2px solid #fff;
+}
+.icon:hover { cursor: pointer; }
+.icon-shape { position: relative; width: 50px; height: 50px; }
+.icon .icon-shape::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 4px;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.icon .icon-shape::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 30px;
+  background: #fff;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+}
+.icon .icon-shape.active::before {
+  transform: translate(-50%, -50%) rotate(180deg);
+  transition: all 0.5s ease;
+}
+.icon .icon-shape.active::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+  transition: all 0.5s ease;
+}
+.accordion_form{
+    padding: 42px;
+}
+.accordion_heading{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.accordion_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.accordion_form .accordion_input input{
+    line-height: 1.5;
+    font-size: 1rem;
+    width: 22rem;
+    background: #000;
+    opacity: 0.8;
+    border-color: #767676;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 10px;
+    color: #fff;
+}
+.accordion_form .accordion_input button{
+    padding: 0px 24px;
+    margin-left: 5px;
+}
+ /* accordion end here */
+
+ /* Footer start here */
+ .footer{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 72px 0px;
+    flex-direction: column;
+ }
+ .footer .container{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .footer .container ul{
+    list-style: none;
+ }
+ .footer .container ul li a{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.125rem;
+ }
+ .footer select{
+    width: 122px;
+    height: 32px;
+ }
+ .footer ul li{
+    color: rgba(255, 255, 255, 0.7);
+ }
+ .footer .container ul li select{
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none !important;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+ }
+ 
+ /* Footer start here */

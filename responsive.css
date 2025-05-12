@@ -1,0 +1,157 @@
+@media only screen and (max-width: 1200px) {
+    .bg-img .nav{
+        max-width: 100%;
+        height: auto;
+    padding: 0.625rem 1rem;
+    }
+    .tv{
+        width: 100%;
+        height: 35rem;
+    }
+    .tv .tv_text{
+        padding-right: 5rem;
+        padding-left: 3rem;
+    }
+    
+    h2{
+        font-size: 32px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .tv{
+        flex-direction: column;
+        display: flex;
+    }
+    .tv .tv_video{
+        width: 100% !important;
+    }
+    
+    .tv .tv_text{
+        width: 100%;
+        padding-top: 0.5rem;
+        text-align: center;
+        padding-bottom: 0px !important;
+    }
+    .offline{
+        flex-direction: column-reverse;
+        margin: 30px 0px;
+    }
+    .offline .offline_watch_text{
+        padding: 0px 20px;
+    }
+    .kids_profile .kids{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+    .kids_profile .kids .kids_text{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .faq_container{
+        width: 95%;
+    }
+    .faq_question .faq_question-text h3, p{
+        font-size: 1.2rem !important;
+    }
+    .icon-shape{
+        width: 20px;
+        height: 20px;
+    }
+    .accordion_heading{
+        font-size: 32px;
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+/* Navbar on Image start here */
+.tv{
+    flex-direction: column;
+    display: flex;
+}
+.tv .tv_text{
+    padding: 10px !important;
+}
+
+    .bg-img{
+        width: 100%;
+        height: 482px;
+    }
+    .nav .logo img{
+        width: 88px;
+        height: 24px;
+    }
+    .nav .nav_right a select {
+        width: 84px;
+        height: 32px;
+        font-size: 11px;
+        font-weight: 300;
+        padding: 5px;
+    }
+    .nav .nav_right{
+        gap: 10px;
+    }
+    .banner_text {
+        padding: 20px;
+    }
+    .nav .nav_right a{
+        display: block;
+        font-size: 11px;
+        font-weight: 300;
+    }
+    .input_button{
+        display: flex;
+        flex-direction: column;
+    }
+    .input_button input{
+        width: 282px;
+        padding: 0.5rem;
+    }
+    .input_button button{
+    align-self: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0rem 1.5rem!important;
+    }
+    .banner_text .input_button i{
+        padding-left: 10px;
+        font-size: 0.75rem;
+    }
+    
+/* Navbar on Image end here */
+.accordion_heading{
+    font-size: 24px;
+}
+.accordion_form .accordion_input button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.accordion_form .accordion_input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion_heading h2{
+    font-size: 20px;
+}
+.footer .hidden{
+    display: none;
+}
+.kids_profile .kids_text h2{
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+}
